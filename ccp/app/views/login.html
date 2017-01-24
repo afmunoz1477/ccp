@@ -1,0 +1,73 @@
+<div class="w3-container w3-center w3-margin fontGeneral w3-grey w3-opacity-min">
+        <div class="w3-col l12 m12 s12">
+            <a href="../index.html"><button class="w3-black w3-btn w3-ripple"><i class="fa fa-chevron-circle-left w3-text-white" aria-hidden="true"></i>  Volver  </button></a>
+            <h2 class="w3-center">Policy agreement.</h2>
+        </div>
+        <h4>[POLICY CONTENT]</h4>
+        <br>
+        <h5> Aceept / decline</h5>
+        
+        <div class="w3-container" id = "check">
+            <div class="w3-col l12 m12 s12" id="confirmCheck">
+                <button class="w3-btn w3-round-large" ng-click = "check()"><label class="w3-validate">I accept the terms and conditions</label></button>
+            </div>
+            
+            <div class="w3-col l12 m12 s12" id="cancelCheck" style="display:none">
+                <button class="w3-btn w3-round-large" ng-click = "cancelCheck()"><label class="w3-validate">Decline</label></button>
+            </div>
+        </div>
+        
+        <div class="w3-container w3-margin" style="display:none" id = "accept">
+            <button ng-click= "popRegister()" class="w3-animate-left w3-round-xlarge w3-btn w3-light-grey w3-large" id = "loginBtn" style="width:20%">Register</button>
+        </div>
+        
+        <!-- Modal Login -->
+    <div id="id01" class="w3-modal">
+        <div class="w3-modal-content w3-card-8 w3-animate-zoom" style="max-width:600px">
+
+            <div class="w3-section w3-animate-left" id = "signup">
+                <form class="w3-container">
+                    
+                    <div class="w3-center"><br>
+                        <span onclick="document.getElementById('id01').style.display='none'" class="w3-closebtn w3-hover-red w3-container w3-padding-8 w3-display-topright" title="Close Modal">×</span>
+                        <img src="../images/happy.png" alt="Avatar" style="width:30%" class="w3-margin-top">
+                    </div>
+                    
+                    <p class="w3-margin"><b>Sign Up</b></p>
+                            
+                    <label><b>Name</b></label>
+                    <input class="w3-input w3-text-black w3-border w3-margin-bottom" type="text" placeholder="Enter Username" name="usrname" ng-model="registration.name" required>
+                            
+                    <label><b>Last Name</b></label>
+                    <input class="w3-input w3-text-black w3-border w3-margin-bottom" type="text" placeholder="Enter Username" name="usrname" ng-model="registration.lastName" required>
+                        
+                    <label><b>Gender</b></label>
+                    <select name="repeatSelect" id="gender" class="form-control w3-deep-purple w3-btn" >
+                        <option disabled selected value>Select your gender</option>
+                        <option value="Male" ng-model = "registration.gender">Male</option>
+                        <option value="Female" ng-model = "registration.gender">Female</option>
+                    </select>   
+                            
+                    <label><b>Age</b></label>
+                    <select name="repeatSelect" id="adults" class="form-control w3-deep-purple w3-btn 1-100" >
+                        <option disabled selected value>Select your age</option>
+                    </select>
+                            
+                    <label><b>Identification</b></label>
+                    <input class="w3-input w3-text-black w3-border w3-margin-bottom" type="text" placeholder="Enter Username" name="identification" ng-model="registration.identification" required>
+                    <br>
+                    <label><b>Username</b></label>
+                    <input class="w3-input w3-text-black w3-border w3-margin-bottom" type="text" placeholder="Enter Username" name="usrname" ng-model="registration.username" required>
+                    <label><b>Password</b></label>
+                    <input class="w3-input w3-text-black w3-border" type="password" placeholder="Enter Password" name="psw" ng-model="registration.password" required>
+                    <label><b>Verify password</b></label>
+                    <input class="w3-input w3-text-black w3-border" type="password" placeholder="Enter Password" name="psw" ng-model="registrationVerify.password" required>
+                    <br>
+                    <button class="w3-btn-block w3-grey w3-section w3-padding" ng-click = "register()">Register</button>
+                </form>
+            </div>
+
+        </div>
+    </div>
+        
+</div>

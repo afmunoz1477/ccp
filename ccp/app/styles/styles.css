@@ -1,0 +1,180 @@
+#map {
+    
+    margin: 0; 
+    padding: 0;  
+    
+}
+
+/*
+    Carrousel StyleSheet
+*/
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 450px;
+      height: 600px;
+      margin: auto;
+  } 
+
+/*
+    Register StyleSheet
+*/
+body,h1,h2,h3,h4,h5,h6 {font-family: 'Raleway', sans-serif;}
+body, html {
+    height: 100%;
+    color: #777;
+    width: auto;
+    line-height: 1.8;
+    overflow-x: hidden;
+    overflow-y: auto;
+    align-content: center;
+    position: relative;
+   font-family: 'Raleway', sans-serif;;
+}
+
+.eventos {
+    background-color: white;
+}
+
+.fotos{
+    max-height: 550px;
+}
+
+.let{
+    
+    color:#19a5a6;
+    
+}
+
+.bor{
+    border-bottom: solid;
+    border-bottom-width: thick;
+    border-bottom-color: white;
+}
+
+.disable {
+    pointer-events: none;
+    opacity: 0.4;
+}
+
+.iconos-servicios {
+    width:60%;
+}
+
+.fontGeneral{
+    font-family: 'Raleway', sans-serif;;
+    
+}
+
+.fontGeneralSer {
+   font-family: 'Raleway', sans-serif;;
+    color: black;
+    font-size: 25px;
+}
+
+.somos{
+    background-image: url(../images/CCPWEBFINAL%20copia-08.png);
+    opacity: 0.8;
+    height: 50%;
+    width: 50%
+}
+
+.menuTopBox{
+    
+    height: 60px;
+}
+
+.top{
+    margin-top: 25%;
+    color:white;
+    text-align: right;
+    font-family: 'Raleway', sans-serif;
+}
+
+.bannerP{
+    font-size: 60px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+.bannerSlogan{
+    font-size: 20px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+.footerFont {
+    
+    color:white; 
+    font-family: 'Signika', sans-serif; 
+    letter-spacing: 2px;
+    font-size: 15px
+    
+}
+
+.footerFontMed {
+    
+    color:white; 
+    font-family: 'Signika', sans-serif; 
+    letter-spacing: 2px;
+    font-size: 10px;
+    
+}
+
+.footerFontS {
+    
+    color:white; 
+    font-family: 'Signika', sans-serif; 
+    font-size: 6px;
+    
+}
+
+
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+}
+
+/* First image */
+.bgimg-1 {
+    background-image: url("../images/CCPWEBFINAL%20copia-02.png");
+    min-height: 100%;
+}
+
+/* Second image (Portfolio) */
+.bgimg-2 {
+    background-image: url("../images/CCPWEBFINAL%20copia-08.png");
+  
+    height: auto;
+}
+
+/* Third image (Contact) */
+.bgimg-3 {
+    background-image: url("");
+    height: 60%;
+}
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+        background-attachment: scroll;
+    }
+
+@media screen and (max-height: 450px) {
+      .sidenav {padding-top: 15px;}
+      .sidenav a {font-size: 18px;}
+    }   
+
+    
+}
+
+
