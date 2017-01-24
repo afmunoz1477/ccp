@@ -23,6 +23,18 @@ app.controller('homeCtrl',function($scope, $state, $location, $http) {
             $location.path('/home');
         }
     }
+    
+    $scope.w3_open = function w3_open() {
+    var x = document.getElementById("mySidenav");
+    var y = document.getElementById("completePageS")
+        if (x.className.indexOf("w3-show") == -1) {
+            x.className += " w3-show";
+            y.style.display = "none";
+        } else { 
+            x.className = x.className.replace(" w3-show", "");
+             y.style.display = "block";
+        }
+    }
 
 
     //==============================================================================================================
@@ -100,6 +112,24 @@ app.controller('homeCtrl',function($scope, $state, $location, $http) {
         $location.path('/login')
     }
     
+    $scope.hide1 = function hide1(){
+        
+        document.getElementById('titulos1').style.display = "none";
+        
+    }
+    
+     $scope.hide2 = function hide2(){
+        
+        document.getElementById('titulos2').style.display = "none";
+        
+    }
+     
+      $scope.hide3 = function hide3(){
+        
+        document.getElementById('titulos3').style.display = "none";
+        
+    }
+    
     
     //-----------------------------------------------------------------------------------------------------------------------
     
@@ -136,6 +166,60 @@ app.controller('homeCtrl',function($scope, $state, $location, $http) {
 
       // Add smooth scrolling on all links inside the navbar
       $("#footer a").on('click', function(event) {
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+          // Prevent default anchor click behavior
+          event.preventDefault();
+        console.log("header")
+          // Store hash
+          var hash = this.hash;
+
+          // Using jQuery's animate() method to add smooth page scroll
+          // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 500, function(){
+
+            // Add hash (#) to URL when done scrolling (default click behavior)
+            window.location.hash = hash;
+          });
+        }  // End if
+      });
+    });
+    
+    $(document).ready(function(){
+    // Add scrollspy to <body>
+      $('body').scrollspy({target: ".slidea", offset: 50});   
+
+      // Add smooth scrolling on all links inside the navbar
+      $("#flecha a").on('click', function(event) {
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+          // Prevent default anchor click behavior
+          event.preventDefault();
+        console.log("header")
+          // Store hash
+          var hash = this.hash;
+
+          // Using jQuery's animate() method to add smooth page scroll
+          // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 500, function(){
+
+            // Add hash (#) to URL when done scrolling (default click behavior)
+            window.location.hash = hash;
+          });
+        }  // End if
+      });
+    });
+    
+    $(document).ready(function(){
+    // Add scrollspy to <body>
+      $('body').scrollspy({target: ".slidea", offset: 50});   
+
+      // Add smooth scrolling on all links inside the navbar
+      $("#mySidenav a").on('click', function(event) {
         // Make sure this.hash has a value before overriding default behavior
         if (this.hash !== "") {
           // Prevent default anchor click behavior

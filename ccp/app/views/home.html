@@ -1,74 +1,89 @@
  <div id="mySidenav" class="w3-hide w3-hide-large w3-hide-medium w3-top w3-opacity-min">
-            <ul class="w3-navbar w3-left-align w3-large w3-white w3-border w3-border-orange">
-                <li class="w3-large w3-light-grey" ng-click="w3_open()"><i class="w3-text-orange fa fa-window-close  w3-col l12 m12 s12" aria-hidden="true" style="margin-top:2%; margin-left:92%"></i></li>
-                <li><a href="#nosotros" class="w3-small w3-text-orange" ng-click="w3_open()"><b>NOSOTROS</b></a></li>
-                <li><a href="#servicios" class="w3-small w3-text-orange" ng-click="w3_open()"><b>SERVICIOS</b></a></li>
-                <li><a href="#portafolioS" class="w3-small w3-text-orange" ng-click="w3_open()"><b>PORTAFOLIO</b></a></li>
-                <li><a href="#contacto" class="w3-small w3-text-orange" ng-click="w3_open()"><b>CONTACTO</b></a></li>
+            <ul class="w3-navbar w3-left-align w3-large w3-white w3-border w3-border-teal">
+                <li class="w3-large w3-light-grey" ng-click="w3_open()"><i class="w3-text-teal fa fa-window-close  w3-col l12 m12 s12" aria-hidden="true" style="margin-top:2%; margin-left:92%"></i></li>
+                <li><a href="#nosotros" class="w3-small w3-text-teal" ng-click="w3_open()"><b>Quienes Somos</b></a></li>
+                <li><a href="#reaccionar" class="w3-small w3-text-teal" ng-click="w3_open()"><b>Reacciona</b></a></li>
+                <li><a href="#eventos" class="w3-small w3-text-teal" ng-click="w3_open()"><b>Eventos</b></a></li>
+                <li><a href="#contactoS" class="w3-small w3-text-teal" ng-click="w3_open()"><b>Contacto</b></a></li>
             </ul>
 </div>
-        <!-- Header -->
-<div class="w3-top w3-row w3-opacity-min" id = "completePage" style="background-color:#19a5a6 ; height:25%" >
+<!-- Header -->
+<div class="w3-top w3-row w3-opacity-min w3-hide-small w3-hide-medium" id = "completePage" style="background-color:#19a5a6 ; height:25%" >
             
-            <!-- Header content -->
-            <header class="w3-row w3-opacity-min topMenu " id="header" >
-                <div class="w3-col l12 m12 s12 ">
-                    
-                    <div class="w3-col l2 m2 s12 ">
+    <!-- Header content -->
+    <header class="w3-row w3-opacity-min topMenu " id="header" >
+        <div class="w3-col l12 m12 s12 ">
+                      
+            <div class="w3-col l2 m2 s12 ">
                         
-                        <a href="#inicio"><img class = "w3-hide-small w3-hide-medium" src="images/CCPWEBFINAL%20copia-06.png" style="width:50%; margin-top:10%; margin-left:10%"></a>
-                        
-                        <a href="#nosotros"><img class = "w3-hide-small w3-hide-large" src="images/CCPWEBFINAL%20copia-06.png" style="width:90%; margin-top:4%; margin-left:2%"></a>
-                        
-                        <img class = "w3-hide-large w3-hide-medium w3-col s6" src="images/CCPWEBFINAL%20copia-06.png" style="width:30%; margin-top:2%; margin-left:2%">
-
-                        <div class="w3-col s6 w3-opennav w3-xxxlarge w3-hide-large w3-hide-medium" ng-click="w3_open()" id="nav">
-                            <i class="w3-text-red fa fa-bars" aria-hidden="true" style="margin-top:2%; margin-left:110%"></i>
-                        </div>
-                    </div>  
-                    
-                    <!-- NavBar -->
-                    <div class="w3-col l10 m10 w3-hide-small ">
-                        
-                        <div class="w3-col l12 m12 w3-text-grey">
+                <a href="#inicio"><img class = "w3-hide-small w3-hide-medium" src="images/CCPWEBFINAL%20copia-06.png" style="width:50%; margin-top:10%; margin- left:10%"></a>
                             
-                            <div class="w3-col l12 m12  slidea bor"  style="margin-top:3%; width:95%">
-                                
-                                    <div class="w3-col l12 m12 w3-right w3-medium" style="width:60%;">
-                                        <a href="#nosotros" ng-click="tab($event);">
-                                            <div class="blue w3-container w3-col l3 m3 w3-hover-text-orange w3-hide-small  menuTopBox" id="blue">
-                                                <p class = "top">Quienes Somos</p>
-                                            </div>
-                                        </a>                        
+                <a href="#nosotros"><img class = "w3-hide-small w3-hide-large" src="images/CCPWEBFINAL%20copia-06.png" style="width:90%; margin-top:4%;         margin-left:2%"></a>
+                        
+                <img class = "w3-hide-large w3-hide-medium w3-col s6" src="images/CCPWEBFINAL%20copia-06.png" style="width:30%; margin-top:2%; margin-  left:2%">
 
-                                        <a href="#reaccionar" ng-click="tab($event);">
-                                            <div class="grey w3-container w3-col l3 m3 w3-hide-small menuTopBox" id="grey">
-                                                <p class = "top">Reacciona</p></div>
-                                        </a>
-                                        
-                                        <a href="#eventos" ng-click="tab($event);">
-                                            <div class="grey w3-container w3-col l3 m3 w3-hide-small menuTopBox" id="grey">
-                                                <p class = "top">Eventos</p></div>
-                                        </a>
-
-                                        <a href="#contacto" ng-click="tab($event);">
-                                            <div class="red w3-container w3-col l3 m3 w3-hide-small menuTopBox" id="red">
-                                                <p class="top">Contactanos</p></div>
-                                        </a>
-                                    </div>
-    
-                            </div>
-
-                            
-                         </div>   
-                            
-                    </div>
+                <div class="w3-col s6 w3-opennav w3-xxxlarge w3-hide-large w3-hide-medium" ng-click="w3_open()" id="nav">
+                    <i class="w3-text-red fa fa-bars" aria-hidden="true" style="margin-top:2%; margin-left:110%"></i>
                 </div>
-            </header>
+            </div>  
+                     
+            <!-- NavBar -->
+            <div class="w3-col l10 m10 w3-hide-small ">
+                        
+                <div class="w3-col l12 m12 w3-text-grey">
+                            
+                    <div class="w3-col l12 m12  slidea bor"  style="margin-top:3%; width:95%">
+                                
+                        <div class="w3-col l12 m12 w3-right w3-medium" style="width:60%;">
+                            <a href="#nosotros" ng-click="tab($event);">
+                                <div class="blue w3-container w3-col l3 m3 w3-hover-text-orange w3-hide-small  menuTopBox" id="blue">
+                                    <p class = "top">Quienes Somos</p>
+                                </div>
+                            </a>                        
+                            
+                            <a href="#reaccionar" ng-click="tab($event);">
+                                <div class="grey w3-container w3-col l3 m3 w3-hide-small menuTopBox" id="grey">
+                                    <p class = "top">Reacciona</p></div>
+                            </a>
+                                            
+                            <a href="#eventos" ng-click="tab($event);">
+                                <div class="grey w3-container w3-col l3 m3 w3-hide-small menuTopBox" id="grey">
+                                    <p class = "top">Eventos</p></div>
+                            </a>
+
+                            <a href="#contacto" ng-click="tab($event);">
+                                <div class="red w3-container w3-col l3 m3 w3-hide-small menuTopBox" id="red">
+                                    <p class="top">Contactanos</p></div>
+                            </a>
+                        </div>    
+                    </div>               
+                </div>                        
+            </div>
         </div>
+    </header>
+</div>
+
+<div class="w3-top w3-row w3-opacity-min w3-hide-large w3-hide-medium" id = "completePageS" style="background-color:#19a5a6 ; height:17%" >
+            
+    <!-- Header content -->
+    <header class="w3-row w3-opacity-min topMenu " id="header" >
+        <div class="w3-container">
+                      
+            <div class="w3-col s12">
+                        
+                <img class = "w3-hide-large w3-hide-medium w3-col s4" src="images/CCPWEBFINAL%20copia-06.png" style="width:20%; margin-top:2%; margin-left:2%">
+
+                <div class="w3-col s8 w3-opennav w3-xxxlarge w3-hide-large w3-hide-medium" ng-click="w3_open()" id="nav">
+                    <i class="w3-text-white fa fa-bars" aria-hidden="true" style="margin-top:10%; margin-left:90%"></i>
+                </div>
+            </div>  
+        </div>
+    </header>
+</div>
+
        
-        <!-- Complete Page -->
-        <div class="w3-row w3-animate-zoom ">
+<!-- Complete Page -->
+<div class="w3-row w3-animate-zoom ">
             <!-- Nav Small devices -->        
             
             
@@ -81,7 +96,7 @@
                     <div class="bgimg-1 w3-display-container" id = "inicio">
                         
                         <!-- Large -->
-                        <div class="w3-container w3-hide-small w3-hide-medium " style="height:900px;">
+                        <div class="w3-container w3-hide-small w3-hide-medium " style="height:900px;" id = "flecha">
                                                         
                             <div class=" w3-col l12 m12" style="color:white; margin-top:14%; margin-left:94%">
                                 <img src="./images/CCPWEBFINAL%20copia-03.png" style="width:3%" ><br>
@@ -103,7 +118,7 @@
                         </div>
 
                         <!-- Medium -->
-                        <div class="w3-container w3-hide-small w3-hide-large" style="height:1024px;">
+                        <div class="w3-container w3-hide-small w3-hide-large" style="height:1024px;" id = "flecha">
                             <div class=" w3-col l12 m12" style="color:white; margin-top:12%; margin-left:94%">
                                 <img src="./images/CCPWEBFINAL%20copia-03.png" style="width:3%" ><br>
                                 <img src="./images/CCPWEBFINAL%20copia-04.png" style="width:3%; margin-top:1%" ><br>
@@ -123,23 +138,31 @@
                         </div>
                         
                         <!-- Small -->
-                        <div class="w3-container w3-hide-medium w3-hide-large" style="height:568px;">
-                            <div class=" w3-col l12 m12" style="color:white; margin-top:12%; margin-left:94%">
-                                <img src="./images/CCPWEBFINAL%20copia-03.png" style="width:3%" ><br>
-                                <img src="./images/CCPWEBFINAL%20copia-04.png" style="width:3%; margin-top:1%" ><br>
-                                <img src="./images/CCPWEBFINAL%20copia-05.png" style="width:3%; margin-top:1%" >
+                        <div class="w3-container w3-hide-medium w3-hide-large" style="height:568px;" id = "flecha">
+                            <div class=" w3-container" style="color:white; margin-top:40%;">
+                                <div class="w3-col s12">
+                                    <img src="./images/CCPWEBFINAL%20copia-03.png" style="width:10%" class=" w3-right" >
+                                </div>
+                                <div class="w3-col s12">
+                                    <img src="./images/CCPWEBFINAL%20copia-04.png" style="width:10%; margin-top:3%" class=" w3-right">
+                                </div>
+                                <div class="w3-col s12">
+                                    <img src="./images/CCPWEBFINAL%20copia-05.png" style="width:10%; margin-top:3%" class=" w3-right">
+                                </div>
                             </div> 
                             
-                            <div class="w3-col l12 m12 s12 w3-center w3-jumbo">
-                                <b class="bannerP">TIEMPO DE RE GENERAR</b><br>
-                                <b class="bannerP">EL CICLO DEL PLÁSTICO</b>
+                            <div class="w3-col l12 m12 s12 w3-center w3-small" style="margin-top:20%">
+                                <b class="bannerPS">TIEMPO DE RE GENERAR</b><br>
+                                <b class="bannerPS">EL CICLO DEL PLÁSTICO</b>
                             </div>
                             
                             <div class="w3-col l12 m12 s12 w3-center" style="margin-top:2%">
-                                <b class="bannerSlogan">El plástico es un recurso indispensable</b><br>
-                                <b class="bannerSlogan">para nuestra vida cotidiana</b>
+                                <b class="bannerSloganS">El plástico es un recurso indispensable</b><br>
+                                <b class="bannerSloganS">para nuestra vida cotidiana</b>
                             </div>
-                            <a href="#nosotros"><span class="glyphicon glyphicon-chevron-down w3-text-white  w3-jumbo " style="margin-top:2%; margin-left:48%"></span></a>                   
+                            <a href="#nosotros"><span class=" w3-hide-small w3-hide-medium glyphicon glyphicon-chevron-down w3-text-white  w3-jumbo " style="margin-top:2%; margin-left:48%"></span></a>
+                            <a href="#nosotros"><span class=" w3-hide-medium w3-hide-large glyphicon glyphicon-chevron-down w3-text-white  w3-large " style="margin-top:15%; margin-left:48%">        
+                            </span></a>                   
                         </div>
                         
                     </div>
@@ -150,7 +173,7 @@
                 <div class="w3-col l12 m12 s12 w3-white"  id = "nosotros">
                     
                     <!-- Large -->
-                    <div class="w3-col l12 m12 somos">
+                    <div class="w3-col l12 m12 somos w3-hide-small w3-hide-medium">
                         
                         <div class="w3-col l6 m6 w3-teal" style="margin-top:15%;margin-bottom:7.5%; margin-right:5%">
                             <div class="w3-col l12 m12 w3-center w3-margin-top">
@@ -169,80 +192,196 @@
                         </div>
                         
                     </div>
+                    
+                    <!-- Small  -->
+                    <div class="w3-col s12 somos w3-hide-medium w3-hide-large">
+                        
+                        <div class="w3-col s12 w3-teal" style="margin-top:30%;margin-bottom:7.5%; margin-right:5%">
+                            <div class="w3-col l12 m12 w3-center w3-margin-top">
+                                <b class="bannerPS ">QUIÉNES SOMOS</b>
+                                <p  class="bannerSloganS"style="width:70%; text-align:left; margin-left:15%; margin-top:5%">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen.</p>
+                                
+                                <button class="w3-btn-block w3-text-white w3-round-large w3-ripple" style="margin-top:5%; margin-bottom:7%;background-color:#19a5a6; width:75%;">ÚNETE A NUESTRA SOCIEDAD</button>
+                                
+                            </div>
+                        </div>
+                        
+                        <div class="w3-col s12" style="margin-bottom:7.5%">
+                            <div class="w3-container w3-center">                            
+                                <img src="./images/CCPWEBFINAL%20copia-10.png" style="width:85%">
+                            </div>
+                        </div>
+                        
+                    </div>
                         
                 </div>
                 
                 <div class="w3-col l12 m12 s12"  id = "reaccionar" style="background-color:#19a5a6">
-                    
-                    <div class="w3-col l12 m12 w3-center">
-                        <img src="../images/CCPWEBFINAL%20copia-13.png" style="width:35%; margin-top:12%" class="w3-opacity-min">
+                    <!-- Large -->
+                    <div class="w3-hide-small w3-hide-medium">
+                        <div class="w3-col l12 m12 w3-center">
+                            <img src="../images/CCPWEBFINAL%20copia-13.png" style="width:35%; margin-top:12%" class="w3-opacity-min">
+                        </div>
+
+                        <div class="w3-col l12 m12 w3-center" style="margin-top:5%">
+                            <div class="w3-col l4 m4">
+                                <label class="w3-jumbo fontGeneral w3-opacity-min w3-text-white">1</label>
+                                <br>
+                                <label class="w3-large fontGeneral w3-center w3-opacity-min w3-text-white" style="width:50%"><b>Consume con responsabilidad</b></label>
+                            </div>
+
+                            <div class="w3-col l4 m4">
+                                <label class="w3-jumbo fontGeneral  w3-opacity-min w3-text-white">2</label>
+                                <br>
+                                <label class="w3-large fontGeneral w3-center  w3-opacity-min w3-text-white" style="width:50%"><b>Aprende a desechar correctamente</b></label>
+                            </div>
+
+                            <div class="w3-col l4 m4">
+                                <label class="w3-jumbo fontGeneral  w3-opacity-min w3-text-white">3</label>
+                                <br>
+                                <label class="w3-large fontGeneral w3-center  w3-opacity-min w3-text-white" style="width:50%"><b>Enseña a la <br> comunidad</b></label>
+                            </div>
+                        </div>
+
+                        <div class="w3-col l12 m12 w3-center">
+                            <button class="w3-btn w3-text-teal w3-large w3-round-xxlarge w3-ripple w3-light-grey" style="margin-top:5%; margin-bottom:7%">SÉ PARTE DEL CAMBIO AHORA</button>
+                        </div>
                     </div>
                     
-                    <div class="w3-col l12 m12 w3-center" style="margin-top:5%">
-                        <div class="w3-col l4 m4">
-                            <label class="w3-jumbo fontGeneral w3-opacity-min w3-text-white">1</label>
-                            <br>
-                            <label class="w3-large fontGeneral w3-center w3-opacity-min w3-text-white" style="width:50%"><b>Consume con responsabilidad</b></label>
+                    <!-- Small -->
+                    <div class="w3-hide-large w3-hide-medium">
+                        
+                        <div class="w3-container w3-center w3-margin-bottom" style="margin-top:30%">
+                            <img src="../images/CCPWEBFINAL%20copia-24.png" style="width:45%">
                         </div>
                         
-                        <div class="w3-col l4 m4">
-                            <label class="w3-jumbo fontGeneral  w3-opacity-min w3-text-white">2</label>
-                            <br>
-                            <label class="w3-large fontGeneral w3-center  w3-opacity-min w3-text-white" style="width:50%"><b>Aprende a desechar correctamente</b></label>
+                        <div class="w3-col l12 m12">
+                                                        
+                            <div class="w3-container w3-margin">
+                                <div class="w3-col s12 borS w3-margin-bottom">
+                                    <img class="w3-left" src="../images/CCPWEBFINAL%20copia-17.png" style="width:25%">
+                                </div>
+                                <div class="w3-col s12 borS w3-margin-bottom">
+                                    <img class="w3-right" src="../images/CCPWEBFINAL%20copia-18.png" style="width:25%">
+                                </div>
+                                <div class="w3-col s12 borS w3-margin-bottom">
+                                    <img class="w3-left" src="../images/CCPWEBFINAL%20copia-19.png" style="width:25%">
+                                </div>
+                                <div class="w3-col s12 borS w3-margin-bottom">
+                                    <img class="w3-right" src="../images/CCPWEBFINAL%20copia-20.png" style="width:25%">
+                                </div>
+                                <div class="w3-col s12 borS w3-margin-bottom">
+                                    <img class="w3-left" src="../images/CCPWEBFINAL%20copia-21.png" style="width:25%">
+                                </div>
+                                <div class="w3-col s12 borS w3-margin-bottom">
+                                    <img class="w3-right" src="../images/CCPWEBFINAL%20copia-22.png" style="width:25%">
+                                </div>
+                                <div class="w3-col s12 borS w3-margin-bottom">
+                                    <img class="w3-left" src="../images/CCPWEBFINAL%20copia-23.png" style="width:25%">
+                                </div>
+                                <div class="w3-col s12 borS w3-margin-bottom">
+                                    <img class="w3-right" src="../images/CCPWEBFINAL%20copia-16.png" style="width:25%">
+                                </div>
+                            </div>
                         </div>
+
                         
-                        <div class="w3-col l4 m4">
-                            <label class="w3-jumbo fontGeneral  w3-opacity-min w3-text-white">3</label>
-                            <br>
-                            <label class="w3-large fontGeneral w3-center  w3-opacity-min w3-text-white" style="width:50%"><b>Enseña a la <br> comunidad</b></label>
+
+                        <div class="w3-col l12 m12 w3-center">
+                            <button class="w3-btn-block w3-text-teal w3-round-large w3-ripple w3-light-grey" style="margin-top:5%; margin-bottom:7%; width:75%;">SÉ PARTE DEL CAMBIO AHORA</button>
                         </div>
                     </div>
                     
-                    <div class="w3-col l12 m12 w3-center">
-                        <button class="w3-btn w3-text-teal w3-large w3-round-xxlarge w3-ripple w3-light-grey" style="margin-top:5%; margin-bottom:7%">SÉ PARTE DEL CAMBIO AHORA</button>
-                    </div>
                     
                 </div>
                 
                 <div class="w3-col l12 m12 eventos" id = "eventos">
-                    <div class="w3-col l12 m12 bor" style="margin-top:10%; border-bottom-color:#19a5a6 ">
-                        <div class="w3-col l12 m12" style="margin-top:5%; margin-left:5%">
-                            <label class="fontGeneral w3-jumbo "><b class="let">EVENTOS, NOTICIAS</b></label>
-                            <br>
-                            <label class="fontGeneral w3-jumbo"><b class="let">& PRENSA</b></label>
-                        </div>
-                        
-                    </div>
-                    <div class="w3-col l12 m12" style="margin-bottom:5%">
-                        <div class="w3-col l12 m12">
-                            <label class="fontGeneral w3-xlarge" style="width:70%; text-align:left; margin-left:15%; margin-top:5%;"><b class="let">W RADIO</b></label><br>
-                            <label  class="w3-medium fontGeneral let"style="width:70%; text-align:left; margin-left:15%">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen.</label>
-                            <br>
-                            <label class="w3-medium fontGeneral let"style="width:70%; text-align:left; margin-left:15%"> ENERO 1 DEL 2017</label>
-                        </div>
-                        
-                        <div class="w3-col l12 m12">
-                            <label class="fontGeneral w3-xlarge" style="width:70%; text-align:left; margin-left:15%; margin-top:5%"><b class="let">W RADIO</b></label><br>
-                            <label  class="w3-medium fontGeneral let"style="width:70%; text-align:left; margin-left:15%">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen.</label>
-                            <br>
-                            <label class="w3-medium fontGeneral let"style="width:70%; text-align:left; margin-left:15%"> FEBRERO 1 DEL 2017</label>
-                        </div>
-                    </div>
-                    <div class="w3-col l12 m12 w3-margin-bottom" >
-                        <div class="w3-row-padding">
-                            <div class="w3-col l4 m4 w3-display-container">
-                                <label class="fontGeneral w3-display-middle w3-xlarge let">Feria en Colombia</label>
-                                <img class="fotos w3-opacity-max w3-hover-opacity-off" src="../images/CCPWEBFINAL%20copia-26.png">
+                    <!-- Large -->
+                    <div class="w3-hide-small w3-hide-medium">
+                        <div class="w3-col l12 m12 bor" style="margin-top:10%; border-bottom-color:#19a5a6 ">
+                            <div class="w3-col l12 m12" style="margin-top:5%; margin-left:5%">
+                                <label class="fontGeneral w3-jumbo "><b class="let">EVENTOS, NOTICIAS</b></label>
+                                <br>
+                                <label class="fontGeneral w3-jumbo"><b class="let">& PRENSA</b></label>
                             </div>
 
-                            <div class="w3-col l4 m4 w3-display-container">
-                                <label class="fontGeneral w3-display-middle w3-xlarge let">Feria en Colombia</label>
-                                <img class="fotos w3-opacity-max w3-hover-opacity-off" src="../images/CCPWEBFINAL%20copia-27.png">
+                        </div>
+                        <div class="w3-col l12 m12" style="margin-bottom:5%">
+                            <div class="w3-col l12 m12">
+                                <label class="fontGeneral w3-xlarge" style="width:70%; text-align:left; margin-left:15%; margin-top:5%;"><b class="let">W RADIO</b></label><br>
+                                <label  class="w3-medium fontGeneral let"style="width:70%; text-align:left; margin-left:15%">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen.</label>
+                                <br>
+                                <label class="w3-medium fontGeneral let"style="width:70%; text-align:left; margin-left:15%"> ENERO 1 DEL 2017</label>
                             </div>
 
-                            <div class="w3-col l4 m4 w3-display-container">
-                                <label class="fontGeneral w3-display-middle w3-xlarge let">Feria en Colombia</label>
-                                <img class="fotos w3-opacity-max w3-hover-opacity-off" src="../images/CCPWEBFINAL%20copia-28.png">
+                            <div class="w3-col l12 m12">
+                                <label class="fontGeneral w3-xlarge" style="width:70%; text-align:left; margin-left:15%; margin-top:5%"><b class="let">W RADIO</b></label><br>
+                                <label  class="w3-medium fontGeneral let"style="width:70%; text-align:left; margin-left:15%">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen.</label>
+                                <br>
+                                <label class="w3-medium fontGeneral let"style="width:70%; text-align:left; margin-left:15%"> FEBRERO 1 DEL 2017</label>
+                            </div>
+                        </div>
+                        <div class="w3-col l12 m12 w3-margin-bottom" >
+                            <div class="w3-row-padding">
+                                <div class="w3-col l4 m4 w3-display-container">
+                                    <label class="fontGeneral w3-display-middle w3-xlarge let " id = "titulo1">Feria en Colombia</label>
+                                    <img class="fotos w3-opacity-max w3-hover-opacity-off" src="../images/CCPWEBFINAL%20copia-26.png">
+                                </div>
+
+                                <div class="w3-col l4 m4 w3-display-container">
+                                    <label class="fontGeneral w3-display-middle w3-xlarge let " id = "titulo2">Feria en Colombia</label>
+                                    <img class="fotos w3-opacity-max w3-hover-opacity-off" src="../images/CCPWEBFINAL%20copia-27.png">
+                                </div>
+
+                                <div class="w3-col l4 m4 w3-display-container ">
+                                    <label class="fontGeneral w3-display-middle w3-xlarge let " id = "titulo3">Feria en Colombia</label>
+                                    <img class="fotos w3-opacity-max w3-hover-opacity-off" src="../images/CCPWEBFINAL%20copia-28.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Small -->
+                    <div class="w3-hide-large w3-hide-medium">
+                        <div class="w3-col l12 m12 bor" style="margin-top:30%; border-bottom-color:#19a5a6 ">
+                            <div class="w3-col l12 m12" style="margin-top:5%; margin-left:5%">
+                                <label class="fontGeneral w3-large"><b class="let">EVENTOS, NOTICIAS</b></label>
+                                <br>
+                                <label class="fontGeneral w3-large"><b class="let">& PRENSA</b></label>
+                            </div>
+
+                        </div>
+                        <div class="w3-col l12 m12" style="margin-bottom:5%">
+                            <div class="w3-col l12 m12">
+                                <label class="fontGeneral w3-medium" style="width:70%; text-align:left; margin-left:15%; margin-top:5%;"><b class="let">W RADIO</b></label><br>
+                                <label  class="w3-small fontGeneral let"style="width:70%; text-align:left; margin-left:15%">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen.</label>
+                                <br>
+                                <label class="w3-small fontGeneral let"style="width:70%; text-align:left; margin-left:15%"> ENERO 1 DEL 2017</label>
+                            </div>
+
+                            <div class="w3-col l12 m12">
+                                <label class="fontGeneral w3-medium" style="width:70%; text-align:left; margin-left:15%; margin-top:5%"><b class="let">W RADIO</b></label><br>
+                                <label  class="w3-small fontGeneral let"style="width:70%; text-align:left; margin-left:15%">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen.</label>
+                                <br>
+                                <label class="w3-small fontGeneral let"style="width:70%; text-align:left; margin-left:15%"> FEBRERO 1 DEL 2017</label>
+                            </div>
+                        </div>
+                        <div class="w3-col l12 m12 w3-margin-bottom" >
+                            <div class="w3-row-padding">
+                                <div class="w3-container w3-center w3-display-container w3-margin-bottom" ng-click = "hide1()">
+                                    <label class="fontGeneral w3-display-middle w3-xlarge let " id = "titulos1">Feria en Colombia</label>
+                                    <img class="fotosS w3-opacity-max w3-hover-opacity-off" src="../images/CCPWEBFINAL%20copia-26.png">
+                                </div>
+
+                                <div class="w3-container w3-center w3-display-container w3-margin-bottom" ng-click = "hide2()">
+                                    <label class="fontGeneral w3-display-middle w3-xlarge let " id = "titulos2">Feria en Colombia</label>
+                                    <img class="fotosS w3-opacity-max w3-hover-opacity-off" src="../images/CCPWEBFINAL%20copia-27.png">
+                                </div>
+
+                                <div class="w3-container w3-center w3-display-container w3-margin-bottom" ng-click = "hide3()">
+                                    <label class="fontGeneral w3-display-middle w3-xlarge let " id = "titulos3">Feria en Colombia</label>
+                                    <img class="fotosS w3-opacity-max w3-hover-opacity-off" src="../images/CCPWEBFINAL%20copia-28.png">
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -250,29 +389,61 @@
                 
                 <!-- NewLetter -->
                 <div class=" w3-col l12 m12 w3-light-grey">
-                    <div class="w3-col l6 m6">
-                        <div class="w3-col l6 m6 ">
-                            <!-- Imagen -->
-                            <img src = "../images/CCPWEBFINAL%20copia-29.png" style="width:50%;margin-left:40%; margin-top:15%">
-                            <br>
+                    <!-- Large -->
+                    <div class="w3-hide-small w3-hide-medium">
+                        <div class="w3-col l6 m6">
+                            <div class="w3-col l6 m6 ">
+                                <!-- Imagen -->
+                                <img src = "../images/CCPWEBFINAL%20copia-29.png" style="width:50%;margin-left:40%; margin-top:15%">
+                                <br>
+                            </div>
+                            <div class="w3-col l6 m6" style=" margin-top:15%; margin-bottom:15%;border-left:solid; border-left-width:medium; border-left-color:grey; ">
+                                <label class="fontGeneral w3-medium" style="color:grey; margin-left:5%; margin-top:5%"><b>SUBSCRÍBETE A NUESTRO NEWSLETTER</b></label><br>
+                                <p class="fontGeneral w3-small" style="color:grey; width:50%; margin-left:5%">Todo lo que necesitas saber sobre la industria del plastico en Colombia y su desarrollo a nivel industrial</p><br>
+                            </div>
                         </div>
-                        <div class="w3-col l6 m6" style=" margin-top:15%; margin-bottom:15%;border-left:solid; border-left-width:medium; border-left-color:grey; ">
-                            <label class="fontGeneral w3-medium" style="color:grey; margin-left:5%; margin-top:5%"><b>SUBSCRÍBETE A NUESTRO NEWSLETTER</b></label><br>
-                            <p class="fontGeneral w3-small" style="color:grey; width:50%; margin-left:5%">Todo lo que necesitas saber sobre la industria del plastico en Colo,bia y su desarrollo a nivel industrial</p><br>
+
+                        <div class="w3-col l6 m6">
+                            <div class="w3-container">
+
+                                <div class="w3-col l12 m12 w3-white w3-round-jumbo" style="margin-top:20%">
+                                    <input class=" w3-col l8 m8 w3-round-jumbo w3-xlarge" placeholder="Correo Electronico" type="text" style="margin-top: 2%; margin-bottom: 2%; margin-left:2%">
+                                    <button class=" w3-col l3 m3 w3-btn w3-text-white w3-large w3-round-jumbo w3-ripple w3-right" style="margin-top: 2%; margin-bottom: 2%; margin-right:2%; background-color:#5FB404">Suscribirme</button>
+
+                                </div>
+                                <div class="w3-col l12 m12 w3-margin" style="margin-bottom:20%">
+                                    <input class="w3-check w3-xxlarge" placeholder="Correo Electronico" type="checkbox" style=" margin-bottom: 2%"> 
+                                    <label class="fontGeneral w3-small w3-validate" style="width:70%;color:grey"><b>ACEPTO <a>TERMINOS Y CONDICIONES</a></b></label><br> 
+                                </div>
+                            </div>
                         </div>
                     </div>
                     
-                    <div class="w3-col l6 m6">
-                        <div class="w3-container">
-                            
-                            <div class="w3-col l12 m12 w3-white w3-round-jumbo" style="margin-top:20%">
-                                <input class=" w3-col l8 m8 w3-round-jumbo w3-xlarge" placeholder="Correo Electronico" type="text" style="margin-top: 2%; margin-bottom: 2%; margin-left:2%">
-                                <button class=" w3-col l3 m3 w3-btn w3-text-white w3-large w3-round-jumbo w3-ripple w3-right" style="margin-top: 2%; margin-bottom: 2%; margin-right:2%; background-color:#5FB404">Suscribirme</button>
-                                
+                    <!-- Small -->
+                    <div class="w3-hide-large w3-hide-medium">
+                        <div class="w3-col s12">
+                            <div class="w3-col s4 ">
+                                <!-- Imagen -->
+                                <img src = "../images/CCPWEBFINAL%20copia-29.png" style="width:60%;margin-left:20%; margin-top:30%">
+                                <br>
                             </div>
-                            <div class="w3-col l12 m12 w3-margin" style="margin-bottom:20%">
-                                <input class="w3-check w3-xxlarge" placeholder="Correo Electronico" type="checkbox" style=" margin-bottom: 2%"> 
-                                <label class="fontGeneral w3-small w3-validate" style="width:70%;color:grey"><b>ACEPTO <a>TERMINOS Y CONDICIONES</a></b></label><br> 
+                            <div class="w3-col s8" style="margin-top:15%;border-left:solid; border-left-width:medium; border-left-color:grey; ">
+                                <label class="fontGeneral" style="color:grey; margin-left:5%; margin-top:1%; font-size: 9px"><b>SUBSCRÍBETE A NUESTRO NEWSLETTER</b></label><br>
+                                <label class="fontGeneral" style=" width:80%;color:grey; margin-left:5%; font-size: 7px">Todo lo que necesitas saber sobre la industria del plastico en Colo,bia y su desarrollo a nivel industrial</label><br>
+                            </div>
+                        </div>
+
+                        <div class="w3-col s12">
+                            <div class="w3-container">
+                                <div class="w3-col s12 w3-white w3-round-jumbo" style="margin-top:10%">
+                                    <input class=" w3-col s8 w3-round-jumbo w3-medium" placeholder="Correo Electronico" type="text" style="margin-top: 2%; margin-bottom: 2%; margin-left:2%">
+                                    <button class=" w3-col s3 w3-text-white w3-medium w3-round-jumbo w3-ripple w3-center" style="margin-top: 2%; margin-bottom: 2%; margin-left:2%; background-color:#5FB404;"><b style="font-size:8px">Suscribirme</b></button>
+
+                                </div>
+                                <div class="w3-col s12 w3-margin" style="margin-bottom:20%">
+                                    <input class="w3-check w3-small" placeholder="Correo Electronico" type="checkbox" style=" margin-bottom: 2%"> 
+                                    <label class="fontGeneral w3-small w3-validate" style="width:80%;color:grey"><b style="font-size:10px">ACEPTO <a>TERMINOS Y CONDICIONES</a></b></label><br> 
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -324,6 +495,52 @@
                         </div>
                     </div>
                 </div>
+                
+                <!-- Small -->
+                <div class="w3-hide-medium w3-hide-large" style="background-color:#0B615E" >
+                    <div class="w3-container w3-border"  >
+                        <div class=" w3-col s12 m12 l12"  id = "contactoS" >
+                            <div class="w3-col l12 m12 s12" style="margin-top:30%"> 
+                                <div class="w3-container w3-left">
+                                    <p class="bor w3-xxlarge fontGeneral w3-text-white" style="  margin-top:2%">Contacto</p>
+                                </div>
+                                <div class="w3-container">
+                                    <div class="w3-col l12 m12 s12">
+                                        <p class="w3-medium fontGeneral w3-text-white" style="margin-top:2%">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto.</p>
+                                        <br>
+                                        <p class="w3-medium fontGeneral w3-text-white" style="margin-top:2%">camaradeplasticocolombia@gmail.com</p>
+                                        <br>
+                                        <p class="w3-medium fontGeneral w3-text-white" style=" margin-top:2%">31532416/56116292</p>
+                                        <br>
+                                        <p class="w3-medium fontGeneral w3-text-white" style="margin-top:2%">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto.</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="w3-col s12">
+                                    <div class="w3-conl s12" >
+
+                                            <form class="w3-container" action="form.asp" target="_blank">
+                                                <label class="fontGeneral w3-small w3-margin-left" style="text-align:left; color:white">Nombre</label>
+                                                <input class="w3-input w3-teal w3-opacity-max w3-border w3-border-white w3-round-jumbo" type="text" name="Name"  required>
+                                                
+                                                <label class="fontGeneral w3-small w3-margin-left" style="text-align:left; color:white">E-mail</label>
+                                                <input class="w3-input w3-teal w3-opacity-max w3-border w3-border-white w3-round-jumbo" type="email" name="Name"  required>
+                                                
+                                                <label class="fontGeneral w3-small w3-margin-left" style="text-align:left; color:white">Asunto</label>
+                                                <input class="w3-input w3-teal w3-opacity-max w3-border w3-border-white w3-round-jumbo" type="email" name="Name"  required>
+                                                
+                                                <label class="fontGeneral w3-small w3-margin-left" style="text-align:left; color:white">Mensaje</label>
+                                                <input class="w3-input w3-teal w3-opacity-max w3-border w3-border-white w3-round-xxlarge" type="text" name="Message"  style="height: 100px;" required>
+
+                                                <button type="submit" style="margin-top:5%; margin-bottom:10%" class= " w3-text-white fontGeneral  w3-btn-block w3-ripple w3-medium w3-teal w3-round-xxlarge w3-right" >Enviar</button>
+
+                                            </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
         <footer id = "footer">
             <div class = "w3-container bgimg-2">
@@ -332,7 +549,7 @@
                     <div class="w3-row w3-center  w3-small w3-hide-small w3-hide-medium" style="margin-top:2%; margin-bottom:2%" >
                             
                             <!-- Large -->
-                            <a class="footerFont w3-border-right w3-col l2 m2 s2 let" href="#compleatePage" >Inicio</a>
+                            <a class="footerFont w3-border-right w3-col l2 m2 s2 let" href="#inicio" >Inicio</a>
             
                             <a class="footerFont w3-border-right w3-col l2 m2 s2 let" href="#nosotros" >Quienes Somos</a>
           
@@ -347,7 +564,7 @@
                     <div class="w3-row w3-center w3-hide-small w3-hide-large" style="margin-top:2%; margin-bottom:2%" >
                             
                             <!-- Medium -->
-                            <a class="footerFontMed w3-border-right w3-col l2 m2 s2 let" href="#header" >Inicio</a>
+                            <a class="footerFontMed w3-border-right w3-col l2 m2 s2 let" href="#inicio" >Inicio</a>
         
                             <a class="footerFontMed w3-border-right w3-col l2 m2 s2 let" href="#nosotros" >Quienes Somos</a>
           
@@ -362,7 +579,7 @@
                     <div class="w3-row w3-center w3-hide-medium w3-hide-large" style="margin-top:2%; margin-bottom:2%" >
                             
                             <!-- Small -->
-                            <a class="footerFontS w3-border-right w3-col l2 m2 s2 let" href="#header" >Inicio</a>
+                            <a class="footerFontS w3-border-right w3-col l2 m2 s2 let" href="#inicio" >Inicio</a>
         
                             <a class="footerFontS w3-border-right w3-col l2 m2 s2 let" href="#nosotros" >Quienes Somos</a>
           
